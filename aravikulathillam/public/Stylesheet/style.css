@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+#navbar-main {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+button {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #78acff;
+    color: white;
+}
+
+.fa-bars {
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #686e7d
+}
+
+.nav-link:hover {
+    border-bottom: 1.6px solid #78acff;
+    color: #78acff;
+}
+
+#banner {
+    height: 500px;
+    /* background-image: url('../Images/home_page.png'); */
+    /* background-image: linear-gradient(#fff, #78acff); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-container {
+    overflow: hidden;
+    height: 400px;
+    object-fit: contain;
+    background-color: red;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card:hover {
+    background: #173b67;
+    color: white;
+    transition: .4s;
+}
+
+h1.about_text {
+    color: #007cc2;
+    font-weight: 900;
+    position: relative;
+}
+
+.card img {
+    object-fit: contain;
+}
+
+.bgs {
+    /* background-image: url('../Images/bg.jpg'); */
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+a.navbar-brand {
+    color: #007cc2;
+    font-weight: 900;
+}
+
+img.logo {
+    width: 100px;
+}
+
+small.slogon {
+    font-weight: lighter;
+    font-size: .7rem;
+    color: #686e7d;
+    margin-left: 100px;
+    ;
+}
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+    font-size: 2.2rem;
+}

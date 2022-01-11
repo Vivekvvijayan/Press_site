@@ -1,0 +1,7 @@
+--blue-color:#022575
+--orang-color:#ff5100
+--text-color-grey:#686e7d
+--link-color-blue:#78acff
+--black-bg:#3e4051
+
+--font-family:Poppins,Loto
